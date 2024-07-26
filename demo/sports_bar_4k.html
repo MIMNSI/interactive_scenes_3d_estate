@@ -70,7 +70,8 @@
     const viewer = new GaussianSplats3D.Viewer({
         'cameraUp': [0.00000, -1.00000, 0.00000],
         'initialCameraPosition': [2.24563, -0.42231, 4.01620],
-        'initialCameraLookAt': [-1.16291, 0.39589, 2.14173]
+        'initialCameraLookAt': [-1.16291, 0.39589, 2.14173],
+        'sphericalHarmonicsDegree': 2
     });
     let path = 'assets/data/sports_bar_4k/sports_bar_4k';
     path += isMobile() ? '.ksplat' : '.ksplat';
